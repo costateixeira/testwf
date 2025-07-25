@@ -84,7 +84,7 @@ jobs:
 
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v4.3
+        uses: tj-actions/branch-names@v9.0.0
 
       - name: Deploy candidate
         uses: JamesIves/github-pages-deploy-action@v4.4.2
